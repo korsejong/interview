@@ -43,6 +43,44 @@ function plusOne(value){
 
 ### 2. ECMAScript 6 (ES2015)
 
+#### Arrow Function
+```
+var plusOne = e => { return e + 1; };
+var plus = (n1, n2) => { return n1 + n2; };
+```
+
+#### Class
+```
+class Shape {
+  constructor(){
+    // ...
+  }
+}
+class Circle extends Shape{
+  constructor(){
+    super();
+    // ...
+  }
+}
+```
+
+#### Let, Const
+* var를 대체하는 키워드
+* Block Scope
+* const의 경우 immutable
+
+#### Iterators
+* for-in
+* for-of
+
+#### Promise
+
+#### Module
+
+#### Map
+
+#### Set
+
 ***
 
 ### 3. ECMAScript 7 (ES2016)
